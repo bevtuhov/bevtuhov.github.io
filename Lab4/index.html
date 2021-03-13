@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Лаб. работа №4</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+</head>
+	<body>
+    <h1>Pseudoclasses and pseudoelements</h1>
+    <hr>
+    <p>Псевдоклассами называют селекторы, которые влияют на существующие элементы документа. Псевдоэлементами обычно задают и меняют область, которая изначально отсутствовала в исходном файле. Проще говоря, псевдоэлементы задают новые области страницы, которых не было в HTML-разметке, а псевдоклассы определяют состояние объектов при определенных условиях.</p>
+    <hr>
+    <p> В следующем абзаце используються два псевдоэлемента ::first-letter и ::first-line.
+    Они позволяют изменять первую букву и первую строку. </p>
+    <div class="fir">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Repellat, quia reprehenderit obcaecati ipsum ratione cupiditate labore similique culpa dolores perferendis debitis iste exercitationem sapiente deserunt sunt nobis quasi ut vero?
+        </p>
+      </div><hr>
+      <p>Дальше используются ::before и ::after они создают несуществующие на странице элементы. В данном примере это просто слова</p>
+    <p class="beaf">Lorem ipsum, dolor sit amet, consectetur adipisicing elit. At, hic.</p><hr>
+    <p>В данном списке представлены целый ряд псевдоклассов: first-child, nth-child(odd),nth-child(even), last-child. Служат они для удобного обращения по номерам, чётным и нечётным, а также первому и последнему элементам.</p>
+    <ul>
+      <li>text</li>
+      <li>text</li>
+      <li>text</li>
+      <li>text</li>
+      <li>text</li>
+      <li>text</li>
+    </ul><hr>
+    <p>С помощью  link(начальный стиль всех ссылок), hover(наведение), active(нажатие/активация), visited(посещённые) псевдолкассов можно управлять декорированием ссылок.</p>
+    <a href="http://www.yandex.ru" target="blank">In Yandex</a>
+	</body>
+</html>

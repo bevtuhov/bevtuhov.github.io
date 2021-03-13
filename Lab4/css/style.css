@@ -1,0 +1,59 @@
+html{
+	background-color: #272323;
+	color:#A8A4A4;
+}
+
+.fir p::first-letter{
+	font-size:28px;
+	text-decoration: underline;
+	color:#F33A3A;
+}
+.fir p::first-line{
+	letter-spacing: 3px;
+	color:#B70DE2;
+}
+
+.beaf::before{
+	content: "Всем привет! ";
+	font-weight: 700;
+}
+.beaf::after{
+	content: "Пока! ";
+	font-weight: 900;
+}
+
+ul li:first-child{
+	font-weight:700;
+	text-decoration: underline;
+}
+ul li:nth-child(odd){
+	letter-spacing: 10px;
+}
+ul li:nth-child(even){
+	text-transform: uppercase;
+}
+
+ul li:last-child{
+	color:#799B11;
+}
+a{
+	text-decoration:none;
+	font-size: 24px;
+}
+a:link{
+	background-color: #E7E7E7;
+	color:#C406F4;
+	border-bottom: 2px dashed #C406F4;
+}
+a:hover{
+	color:#944810;
+	border-bottom: 2px solid #944810;
+}
+a:active{
+	font-weight:700;
+	color:#490F50;
+	border-bottom: 2px solid #490F50;
+}
+a:visited{
+	background-color: #EA8888;
+}

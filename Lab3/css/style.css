@@ -1,0 +1,41 @@
+html{
+	background-image: url("../img/phone.jpg");
+}
+table {
+   border: 5px solid #000;
+   background-color: #4e3b31;
+   margin: 30px;
+   color:white;
+}
+
+h1{
+	text-decoration: underline;
+	font-style: normal;
+}
+
+
+td,th, caption{
+   border: 2px solid #000;
+   background-color: #4e3b31;
+   text-align: center;
+   font-weight:700;
+}
+th{
+	background-color: #226E32;
+	padding:16px;
+}
+td{
+	padding:6px;
+}
+caption{
+	color:#1856AB;
+	background-color: #4e3b31;
+	font-size: 25px;
+	font-weight:700;
+}
+.gr {
+	background-color: #98FA24;
+}
+.org {
+	background-color:#1856AB;
+}
