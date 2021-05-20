@@ -1,0 +1,19 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  
+  gap:5px;
+}
+html{
+	background-color: rgb(14, 32, 109);
+}
+a{
+	color:#353232;
+	display:block;
+	border:  2px dashed #536DFE;
+	border-radius: 3px;
+	background-color:#BBDEFB;
+	width: 25%;
+	text-align: center;
+	
+}

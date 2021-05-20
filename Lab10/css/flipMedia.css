@@ -1,0 +1,18 @@
+.media-object {
+ 
+   order: 1
+ 
+}
+
+.media {
+ 
+   display: flex;
+ align-items: flex-start;
+}
+
+.media-body {
+ background-color: whitesmoke;
+   flex: 1;
+ 
+}
+
