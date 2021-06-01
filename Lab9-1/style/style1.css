@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Jost';
+}
+.log {
+    position: relative;
+    padding-top: 20px;
+}
+.log:hover{
+    transform: scale(1.2);
+}
+.navig {   
+     list-style-type: none;
+     margin-top: -70px;
+    
+}
+
+.navig li {
+    margin: 0 23px;
+    
+}
+ul li{
+display:inline-block;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 124px;
+    height: 35px;
+    border-radius: 18px;
+    background: #F3F3F3;
+    text-align: center;
+    
+}
+.button:hover {
+    
+    transform: scale(1.2);
+}
+.button:active{
+    transform: scale(0.9);
+    opacity: .8;
+    background: #9A1212;
+}
+.button a {
+    margin-top: -2px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.button a:hover {
+    
+    color: #9A1212;
+}
+.button a:active {
+    
+    color: white;
+}
+
+.p2{
+    
+   color: black;
+    margin: 0 0 0 10px;
+}
+.prod {
+    
+    margin-top: 40px;
+}
+.name{
+    font-size: 36px;
+}
+.inf{
+    width: 772px;
+height: 360px;
+    background: #9A1212;
+    border-radius: 60px;
+    margin-left: -50px;
+    margin-top: 5px;
+}
+.text{
+   padding: 30px 157px 19px 33px;   
+font-size: 32px;
+line-height: 46px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.image{
+    
+    background: url('../img/p2.png');
+    width: 255px;
+    height: 102%;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 82px;
+    margin-left: 650px;
+    margin-top: -330px;
+}
+.footer {
+     display: flex;
+       align-items:center;
+       align-self:end;
+    margin-top: 80px;
+     height: 100px;
+    width: 100%;
+    background-color: #F3F3F3;
+    
+}
+.footer-s{
+    
+width: 84px;
+height: 56px;
+left: 21px;
+
+margin-left: 40px;
+background: #FFFFFF;
+border-radius: 20px;
+}
+.footer-s:hover{
+    transform: scale(1.2);
+}
+.s-left {
+    margin-top: 12px;
+    margin-left: 25px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    transition: opacity .3s, transform .3s;
+}
+
+.s-left:hover {
+    opacity: .8;
+    transform: scale(1.2);
+}
+
+.s-left div {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-left: solid #9A1212 7px;
+    border-bottom: solid #9A1212 7px;
+    transform: rotate(45deg);
+}
+.s-left div:nth-child(1) {
+    left: 50%;
+}
+.vet4{
+  position: absolute;
+  width: 360px;
+height: 432px;
+    right: 0;
+    bottom: 0;
+    
+    z-index: 0;
+}
