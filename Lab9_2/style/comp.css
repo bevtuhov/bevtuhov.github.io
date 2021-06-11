@@ -1,0 +1,52 @@
+.bg_red_btn {
+    background: #9A1212;
+    transform: scale(1.1);
+}
+
+.bg_red_btn a {
+    color: white;
+}
+
+.bg_red_btn:hover a{
+    color: white;
+}
+.bg_red_btn:hover {
+    transform: scale(1.1);
+}
+
+.comp {
+    width: 80vw;
+    align-self: center;
+    text-align: right;
+    font-size: 25px;
+}
+.part-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:800px){
+    .comp {
+        width: 95vw;
+        font-size: 18px;
+        text-align: center;
+    }
+    .part-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .comp img {
+        width: 120px;
+    }
+    .footer-s {
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:400px) {
+    .comp {
+        font-size: 16px;
+    }
+    .comp img {
+        height: 120px;
+    }
+}
